@@ -13,9 +13,13 @@
         <li>Login</li>
       </ul>
     </header>
+    <div class="carrousel">
+
+
+    </div>
 
     <section>
-      @yield('principal')
+      @yield('productos')
 
 
 
