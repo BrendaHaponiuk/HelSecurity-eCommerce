@@ -3,7 +3,9 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="/css/app.css">
-    <title></title>
+    <title>
+      @yield('titulo')
+    </title>
   </head>
   <body>
     <header>
