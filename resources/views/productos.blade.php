@@ -1,21 +1,20 @@
-@extends('plantilla')
+@extends('home')
 
-@section('titulo')
-Productos
-@endsection
+
+
 @section('productos')
-
-  <section class="productos">
+<section class="productos">
 			@foreach ($productos as $producto)
 				<article class="producto">
 					<div class="photo-container">
-						<img class="photo" src="/img/ <$producto["imagen"]?>" alt="pdto 01">
+						<img class="photo" src="/img/{{$producto["imagen"]}}" alt="pdto 01">
           </div>
 					<h2>
-						$producto["titulo"]
+					@unless($producto["nombre"])
+          @endunless()
 					</h2>
-					<p>$producto["descripcion"]</p>
-            <a class="more" href="producto.php?id= $producto["id"]?>">ver más</a>
+					<p>{{$producto["precio"]}}</p>
+            <a class="more" href= {{$producto["id"]}}" >ver más </a>
 				</article>
       @endforeach()
 
