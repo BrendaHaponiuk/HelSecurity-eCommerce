@@ -15,10 +15,24 @@ Route::get('/', function () {
     return view('home');
 });
 
+Route::get("/plantilla", function() {
+  return view('plantilla');
+});
+Route::get("/register", function() {
+  return view('register');
+});
+Route::post("/register", function() {
+  return view('user');
+});
+Route::get("/login", function() {
+  return  "login";
+});
+Route::get("/producto{id}", function($id) {
+  $vac = compact('id');
+  return  view("producto", $vac);
+});
 
 
 
 
 Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');
