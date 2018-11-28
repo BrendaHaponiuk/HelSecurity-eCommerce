@@ -36,7 +36,7 @@
                 <li> <a href="#">Kits</a> </li>
                 <li> <a href="#">Cámaras</a> </li>
                 <li> <a href="#">Alarmas</a> </li>
-                <li> <a href="#">Ofertas</a> </li>
+                <li> <a href="#">Accesorios</a> </li>
               </ul>
             </div>
           </div>
@@ -50,7 +50,7 @@
             <li> <a href="#">LLAMENOS +5411 4209-3622</a> </li>
           </ul>
           <ul class="social">
-            <li> <a href="#"><i class="fab fa-linkedin"></i></a> </li>
+            <li> <a href="{{ url('https://www.linkedin.com/in/brendahaponiuk/') }}"><i class="fab fa-linkedin"></i></a> </li>
             <li> <a href="#"><i class="fab fa-facebook-square"></i> </a> </li>
             <li> <a href="#"><i class="fab fa-instagram"></i></a> </li>
             <li> <a href="mailto:info@helsecurity.com"><i class="fas fa-envelope"></i></a> </li>
@@ -73,7 +73,30 @@
 
       <!-- productos -->
 
+      
 
+      <footer class="main-footer">
+        <div class="logo-footer-container">
+          <img src="/img/logo.png" alt="" class="logo-footer-img">
+        </div>
+        <div class="informacion-contacto">
+          <ul>
+            <li>
+              <p class="footer-info">+5411 4209-3622 | Boquerón 2486 | Lanús Oeste (1824) | Buenos Aires.</p>
+            </li>
+
+          </ul>
+        </div>
+        <div class="footer-rrss-container">
+          <ul class="footer-rrss-list">
+            <li> <a href="#"><i class="fab fa-linkedin"></i></a> </li>
+            <li> <a href="#"><i class="fab fa-facebook-square"></i> </a> </li>
+            <li> <a href="#"><i class="fab fa-instagram"></i></a> </li>
+            <li> <a href="mailto:info@helsecurity.com"><i class="fas fa-envelope"></i></a> </li>
+
+          </ul>
+        </div>
+      </footer>
 
 
 

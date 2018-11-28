@@ -2,7 +2,7 @@
 
 @section("principal")
 
-<h1>FUNCIONAN LOS LINKS DE LA NAV BAR</h1>
+<h1>EN CONSTRUCCIÓN</h1>
 
 
 
