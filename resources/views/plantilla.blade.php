@@ -44,9 +44,9 @@
         <!-- menues caja 2 -->
         <div class="contact-us">
           <ul class="menu-items">
-            <li> <a href="home.php">HOME</a> </li>
-            <li> <li><a href="{{ url('/servicios') }}">SERVICIOS</a></li> </li>
-            <li> <a href="novedades.php">NOVEDADES</a> </li>
+            <li><a href="{{ url('/home') }}">HOME</a></li>
+            <li><a href="{{ url('/servicios') }}">SERVICIOS</a></li>
+            <li> <a href="{{ url('/novedades') }}">NOVEDADES</a> </li>
             <li> <a href="#">LLAMENOS +5411 4209-3622</a> </li>
           </ul>
           <ul class="social">
@@ -58,16 +58,19 @@
         </div>
 
       </header>
+      <section>
+
+        @yield('carrousel')
+      </section>
+
+
 
       <section>
         @yield('principal')
       </section>
 
 
-      <!-- carrousel -->
-      <div class="carrousel">
-        <img src="/img/drones.png" alt="">
-      </div>
+
       <!-- productos -->
 
 

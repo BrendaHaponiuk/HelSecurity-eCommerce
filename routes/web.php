@@ -24,6 +24,11 @@ Route::get('servicios', function(){
 Route::get('novedades', function(){
  return View::make('novedades');
 });
+Route::get('home', function(){
+ return View::make('home');
+});
+
+
 
 Route::get("/register", function() {
   return view('register');
