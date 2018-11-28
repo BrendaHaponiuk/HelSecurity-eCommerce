@@ -1,4 +1,4 @@
-@extends('Plantilla')
+@extends('plantilla')
 
 
 

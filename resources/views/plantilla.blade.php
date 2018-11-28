@@ -11,7 +11,7 @@
     <!-- Estilos -->
 
 
-    <title>Home</title>
+    <title>Hel Security</title>
   </head>
   <body>
     <div class="main-container">
@@ -45,7 +45,7 @@
         <div class="contact-us">
           <ul class="menu-items">
             <li> <a href="home.php">HOME</a> </li>
-            <li> <a href="servicios.php">SERVICIOS</a> </li>
+            <li> <li><a href="{{ url('/servicios') }}">SERVICIOS</a></li> </li>
             <li> <a href="novedades.php">NOVEDADES</a> </li>
             <li> <a href="#">LLAMENOS +5411 4209-3622</a> </li>
           </ul>
@@ -59,14 +59,17 @@
 
       </header>
 
+      <section>
+        @yield('principal')
+      </section>
+
+
       <!-- carrousel -->
       <div class="carrousel">
         <img src="/img/drones.png" alt="">
       </div>
       <!-- productos -->
-<section>
-  @yield('ProductosPrincipal')
-</section>
+
 
 
 

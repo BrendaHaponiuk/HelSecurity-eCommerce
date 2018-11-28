@@ -12,12 +12,19 @@
 */
 
 Route::get('/', function () {
-    return view('home');
+    return view('plantilla');
 });
 
 Route::get("/plantilla", function() {
   return view('plantilla');
 });
+Route::get('servicios', function(){
+ return View::make('servicios');
+});
+Route::get('novedades', function(){
+ return View::make('novedades');
+});
+
 Route::get("/register", function() {
   return view('register');
 });
