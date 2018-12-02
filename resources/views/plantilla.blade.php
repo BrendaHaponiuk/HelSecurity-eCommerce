@@ -27,8 +27,8 @@
           <div class="menu-section">
             <div class="user-menu">
               <ul class="user-items">
-                <li> <a href="login.php">Login</a> </li>
-                <li> <a href="registro.php">Registro</a> </li>
+                <li> <a href={{"/login"}}>Login</a> </li>
+                <li> <a href={{"/register"}}>Registro</a> </li>
               </ul>
             </div>
             <div class="categories">
@@ -73,7 +73,7 @@
 
       <!-- productos -->
 
-      
+
 
       <footer class="main-footer">
         <div class="logo-footer-container">

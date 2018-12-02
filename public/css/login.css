@@ -56,9 +56,14 @@
   display: none;
 }
 
-.form-check-input {
+.form-check {
   display: flex;
+  justify-content: flex-end;
+  height: 50px;
+  align-items: baseline;
 }
+
+
 .container {
   position: relative;
   z-index: 1;
