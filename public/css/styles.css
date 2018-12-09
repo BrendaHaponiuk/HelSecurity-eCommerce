@@ -144,6 +144,7 @@ a:hover{
 
 h2 {
   font-family: 'Rubik', sans-serif;
+  font-size: 32px;
 }
 
 .productos {
@@ -162,6 +163,17 @@ h2 {
 .producto .productos {
   padding:50px;
 }
+
+.recomend{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+
+}
+
+
+
 /*MediaQuerys*/
 
 @media only screen and (max-width: 480px) {

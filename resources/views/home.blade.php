@@ -7,4 +7,5 @@
   <img src="/img/drones.png" alt="">
 </div>
 
+
 @endsection

@@ -63,6 +63,25 @@
         @yield('carrousel')
       </section>
 
+      <div class="recomend">
+        <div class="Pregunta">
+          <h2>¿Qué necesitás protejer?</h2>
+        </div>
+        <br>
+
+        <div class="butons-profile">
+
+          <button type="button" class="btn btn-primary btn-lg">Empresa</button>
+          <button type="button" class="btn btn-secondary btn-lg">Vivienda</button>
+
+        </div>
+
+
+
+
+      </div>
+
+
 
 
       <section>
